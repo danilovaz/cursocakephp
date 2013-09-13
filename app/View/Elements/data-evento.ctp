@@ -1,0 +1,1 @@
+<em><?php echo $dia ?> de <?php echo $mes?> de 2013 - Teatro Colinas, Av São João, 2200 - Jardim das Colinas - São José dos Campos - SP</em>
