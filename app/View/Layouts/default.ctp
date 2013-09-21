@@ -52,18 +52,17 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 			<article class="infos-header">
 			    <span>
 			        <?php echo $this->element('data-evento', array('dia' => '20','mes' => 'novembro')) ?>
-			        <a href="#tickets">
-			        <?php echo $this->Html->image('inscreva.png'); ?>
-			        </a>
+			        
+			        <?php echo $this->Html->link($this->Html->image('inscreva.png', array('alt' => 'INSCREVA-SE')), '/inscricao', array('escapeTitle' => false, 'title' => 'INSCREVER')); ?>
+			        
 			    </span>
 			</article>
 		</div>	
 	</header>
 	<?php echo $this->element('menu') ?>
-	<?php echo $this->fetch('content') ?>
-	<!--<?php echo $this->element('sobre-o-evento') ?>
-	<?php echo $this->element('como-chegar') ?>-->
-	
+	<div class="content">
+		<?php echo $this->fetch('content') ?>
+	</div>
 	<footer>
 		<?php echo $this->element('rodape') ?>
 	</footer>

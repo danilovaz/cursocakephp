@@ -7,8 +7,8 @@
 	
 		<div id="nav" class="grid_9 omega">
 			<ul class="navigation">
-				<li data-slide="1"><?php echo $this->Html->link('O EVENTO', 'sobre-o-evento'); ?></li>
-				<li data-slide="2"><?php echo $this->Html->link('COMO CHEGAR', 'como-chegar'); ?></li>
+				<li data-slide="1"><?php echo $this->Html->link('O EVENTO', '/sobre-o-evento'); ?></li>
+				<li data-slide="2"><?php echo $this->Html->link('COMO CHEGAR', '/como-chegar'); ?></li>
 				<li data-slide="3">LINK 1</li>
 				<li data-slide="4">LINK 2</li>
 			</ul>

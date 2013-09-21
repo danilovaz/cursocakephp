@@ -28,6 +28,11 @@
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 	Router::connect('/sobre-o-evento', array('controller' => 'pages', 'action' => 'display', 'sobre-o-evento'));
+	Router::connect('/como-chegar', array('controller' => 'pages', 'action' => 'display', 'como-chegar'));
+	Router::connect('/inscricao', array('controller' => 'inscricoes', 'action' => 'inscrever', 'inscricao'));
+	Router::connect('/obrigado', array('controller' => 'pages', 'action' => 'display', 'obrigado'));
+
+
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
