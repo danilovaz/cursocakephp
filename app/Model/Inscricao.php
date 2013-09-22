@@ -6,7 +6,7 @@
 		public $useTable = 'inscricoes';
 
 		//crio o campo virtual para Nome + Sobrenome
-		public $virtualFields = array('nome_completo' => 'CONCAT(Inscricao.nome, " ", Insricao.sobrenome)');
+		public $virtualFields = array('nome_completo' => 'CONCAT(Inscricao.nome, " ", Inscricao.sobrenome)');
 
 		//defino a chave primária da tabela como inscricao_id
 		public $primaryKey = 'inscricao_id';
